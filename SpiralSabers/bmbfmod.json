@@ -1,0 +1,88 @@
+{
+  "coverImageFilename": "Cover.png",
+  "icon": "Cover.png",
+  "components": [
+    {
+      "Type": "AssetsMod",
+      "InstallAction": {
+        "PreloadFiles": [
+          "sharedassets15.assets"
+        ],
+        "Actions": [
+          {
+            "Type": "ReplaceAsset",
+            "FromDataFile": "SaberBlade.dat",
+            "Locator": {
+              "TypeIs": "Mesh",
+              "NameIs": "SaberBlade"
+            },
+            "AllowOverwriteName": false,
+            "StepNumber": 1
+          },
+          {
+            "Type": "ReplaceAsset",
+            "FromDataFile": "SaberGlowingEdges.dat",
+            "Locator": {
+              "TypeIs": "Mesh",
+              "NameIs": "SaberGlowingEdges"
+            },
+            "AllowOverwriteName": false,
+            "StepNumber": 2
+          },
+          {
+            "Type": "ReplaceAsset",
+            "FromDataFile": "SaberHandle.dat",
+            "Locator": {
+              "TypeIs": "Mesh",
+              "NameIs": "SaberHandle"
+            },
+            "AllowOverwriteName": false,
+            "StepNumber": 3
+          }
+        ]
+      },
+      "UninstallAction": {
+        "PreloadFiles": [
+          "sharedassets15.assets"
+        ],
+        "Actions": [
+          {
+            "Type": "RestoreAsset",
+            "Locator": {
+              "TypeIs": "Mesh",
+              "NameIs": "SaberBlade"
+            },
+            "StepNumber": 1
+          },
+          {
+            "Type": "RestoreAsset",
+            "Locator": {
+              "TypeIs": "Mesh",
+              "NameIs": "SaberGlowingEdges"
+            },
+            "StepNumber": 2
+          },
+          {
+            "Type": "RestoreAsset",
+            "Locator": {
+              "TypeIs": "Mesh",
+              "NameIs": "SaberHandle"
+            },
+            "StepNumber": 3
+          }
+        ]
+      }
+    }
+  ],
+  "version": "0.0.2",
+  "links": {},
+  "description": [
+    "Sabers with spirally decoration."
+  ],
+  "gameVersion": "1.5.0",
+  "platform": "Quest",
+  "id": "SpiralSabers",
+  "name": "Spiral Sabers",
+  "author": "Rayn",
+  "category": "Saber"
+}
