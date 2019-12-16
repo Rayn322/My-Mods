@@ -375,12 +375,12 @@
               "NameIs": "HitLongRight5"
             },
             "StepNumber": 20
-          },
+          }
         ]
       }
     }
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "links": {},
   "description": [
     "Make blocks very clicky"
