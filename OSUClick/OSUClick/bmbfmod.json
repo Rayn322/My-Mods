@@ -6,7 +6,8 @@
       "Type": "AssetsMod",
       "InstallAction": {
         "PreloadFiles": [
-          "{{Note}}"
+          "{{Note}}",
+		  "sharedassets2.assets"
         ],
         "Actions": [
           {
@@ -208,12 +209,23 @@
             },
             "AllowOverwriteName": false,
             "StepNumber": 20
+          },
+		  {
+            "Type": "ReplaceAsset",
+            "FromDataFile": "MenuClick.dat",
+            "Locator": {
+              "TypeIs": "AudioClip",
+              "NameIs": "MenuClick0"
+            },
+            "AllowOverwriteName": false,
+            "StepNumber": 21
           }
         ]
       },
       "UninstallAction": {
         "PreloadFiles": [
-          "{{Note}}"
+          "{{Note}}",
+		  "sharedassets2.assets"
         ],
         "Actions": [
           {
@@ -375,15 +387,23 @@
               "NameIs": "HitLongRight5"
             },
             "StepNumber": 20
+          },
+		  {
+            "Type": "RestoreAsset",
+            "Locator": {
+              "TypeIs": "AudioClip",
+              "NameIs": "MenuClick0"
+            },
+            "StepNumber": 21
           }
         ]
       }
     }
   ],
-  "version": "1.0.1",
+  "version": "1.1.0",
   "links": {},
   "description": [
-    "Make blocks very clicky"
+    "Makes blocks and menu clicky."
   ],
   "gameVersion": "1.6.0",
   "platform": "Quest",
