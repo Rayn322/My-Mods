@@ -14,5 +14,5 @@
  0 StreamedResource m_Resource
   1 string m_Source = "../Mods/OSUClick/MenuClick.ogg"
   0 UInt64 m_Offset = 0
-  0 UInt64 m_Size = 13533
+  0 UInt64 m_Size = 11237
  1 int m_CompressionFormat = 0
