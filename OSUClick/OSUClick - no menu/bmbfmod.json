@@ -6,7 +6,7 @@
       "Type": "AssetsMod",
       "InstallAction": {
         "PreloadFiles": [
-          "sharedassets19.assets"
+          "{{Note}}"
         ],
         "Actions": [
           {
@@ -385,7 +385,7 @@
   "description": [
     "Make blocks very clicky"
   ],
-  "gameVersion": "1.6.3",
+  "gameVersion": "1.7.0",
   "platform": "Quest",
   "id": "OSUClick",
   "name": "OSU Click",
