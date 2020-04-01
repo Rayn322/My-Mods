@@ -1,6 +1,6 @@
 {
-  "coverImageFilename": "Cover.png",
-  "icon": "Cover.png",
+  "coverImageFilename": "cover.png",
+  "icon": "cover.png",
   "components": [
     {
       "Type": "AssetsMod",
@@ -400,12 +400,12 @@
       }
     }
   ],
-  "version": "1.1.1",
+  "version": "1.2.0",
   "links": {},
   "description": [
     "Makes blocks and menu clicky."
   ],
-  "gameVersion": "1.7.0",
+  "gameVersion": "1.8.0",
   "platform": "Quest",
   "id": "OSUClick",
   "name": "OSU Click",
