@@ -380,12 +380,12 @@
       }
     }
   ],
-  "version": "1.2.0",
+  "version": "1.2.1",
   "links": {},
   "description": [
     "Make blocks very clicky"
   ],
-  "gameVersion": "1.8.0",
+  "gameVersion": "1.9.1",
   "platform": "Quest",
   "id": "OSUClick",
   "name": "OSU Click",
