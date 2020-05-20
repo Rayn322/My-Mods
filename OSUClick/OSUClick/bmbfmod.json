@@ -224,7 +224,7 @@
       },
       "UninstallAction": {
         "PreloadFiles": [
-          "sharedassets19.assets",
+          "{{Note}}",
 		  "sharedassets2.assets"
         ],
         "Actions": [
