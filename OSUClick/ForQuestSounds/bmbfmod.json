@@ -1,0 +1,27 @@
+{
+    "coverImageFilename": "cover.png",
+    "icon": "cover.png",
+    "components": [
+        {
+            "type": "FileCopyMod",
+            "sourceFileName": "HitSound.ogg",
+            "targetRootedPathAndFileName": "/sdcard/Android/data/com.beatgames.beatsaber/files/sounds/HitSound.ogg"
+        },
+        {
+            "type": "FileCopyMod",
+            "sourceFileName": "MenuClick.ogg",
+            "targetRootedPathAndFileName": "/sdcard/Android/data/com.beatgames.beatsaber/files/sounds/MenuClick.ogg"
+        }
+    ],
+    "version": "1.0.0",
+    "links": {},
+    "description": [
+      "Makes blocks and menu clicky. This version should only be used with the QuestSounds mod."
+    ],
+    "gameVersion": "1.10.0",
+    "platform": "Quest",
+    "id": "OSUClick",
+    "name": "OSU Click for QuestSounds",
+    "author": "Rayn",
+    "category": "Other"
+}
