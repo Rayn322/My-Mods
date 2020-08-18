@@ -7,7 +7,7 @@
       "InstallAction": {
         "PreloadFiles": [
           "{{Note}}",
-		  "sharedassets2.assets"
+          "{{MenuSound}}"
         ],
         "Actions": [
           {
@@ -210,7 +210,7 @@
             "AllowOverwriteName": false,
             "StepNumber": 20
           },
-		  {
+          {
             "Type": "ReplaceAsset",
             "FromDataFile": "MenuClick.dat",
             "Locator": {
@@ -225,7 +225,7 @@
       "UninstallAction": {
         "PreloadFiles": [
           "{{Note}}",
-		  "sharedassets2.assets"
+          "{{MenuSound}}"
         ],
         "Actions": [
           {
@@ -388,7 +388,7 @@
             },
             "StepNumber": 20
           },
-		  {
+          {
             "Type": "RestoreAsset",
             "Locator": {
               "TypeIs": "AudioClip",
@@ -405,10 +405,10 @@
   "description": [
     "Makes blocks and menu clicky."
   ],
-  "gameVersion": "1.9.1",
+  "gameVersion": "1.10.0",
   "platform": "Quest",
   "id": "OSUClick",
   "name": "OSU Click",
-  "author": "Rayn",
+  "author": "Ryan",
   "category": "Other"
 }
