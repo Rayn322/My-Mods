@@ -385,7 +385,7 @@
   "description": [
     "Make blocks very clicky"
   ],
-  "gameVersion": "1.10.0",
+  "gameVersion": "1.12.2",
   "platform": "Quest",
   "id": "OSUClick",
   "name": "OSU Click",

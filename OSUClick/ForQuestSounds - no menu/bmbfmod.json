@@ -13,7 +13,7 @@
   "description": [
     "Makes blocks clicky. This version should only be used with the QuestSounds mod. If QuestSounds isn't enabled then nothing will happen. :)"
   ],
-  "gameVersion": "1.10.0",
+  "gameVersion": "1.12.2",
   "platform": "Quest",
   "id": "OSUClick",
   "name": "OSU Click for QuestSounds",
