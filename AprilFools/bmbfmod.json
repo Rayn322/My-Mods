@@ -1,0 +1,52 @@
+{
+  "coverImageFilename": "cover.png",
+  "icon": "cover.png",
+  "components": [
+    {
+      "Type": "AssetsMod",
+      "InstallAction": {
+        "PreloadFiles": [
+          "sharedassets2.assets"
+        ],
+        "Actions": [
+          {
+            "Type": "ReplaceAsset",
+            "FromDataFile": "Menu.dat",
+            "Locator": {
+              "TypeIs": "AudioClip",
+              "NameIs": "Menu"
+            },
+            "AllowOverwriteName": false,
+            "StepNumber": 1
+          }
+        ]
+      },
+      "UninstallAction": {
+        "PreloadFiles": [
+          "sharedassets2.assets"
+        ],
+        "Actions": [
+          {
+            "Type": "RestoreAsset",
+            "Locator": {
+              "TypeIs": "AudioClip",
+              "NameIs": "Menu"
+            },
+            "StepNumber": 1
+          }
+        ]
+      }
+    }
+  ],
+  "version": "1.0.0",
+  "links": {},
+  "description": [
+    "Minecraft."
+  ],
+  "gameVersion": "1.8.0",
+  "platform": "Quest",
+  "id": "NeverGonnaGiveYouUp",
+  "name": "Minecraft Menu Music",
+  "author": "Rayn",
+  "category": "Other"
+}
